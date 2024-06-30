@@ -3,12 +3,12 @@ CREATE TABLE student_table (
     Stu_name VARCHAR(30),
     Department VARCHAR(15),
     email_id VARCHAR(20),
-    Phone_no NUMERIC,
+    Phone_no INT,
     Address VARCHAR(50),
     Date_of_birth DATE,
     Gender VARCHAR(8),
     Major VARCHAR(20),
-    GPA NUMERIC,
+    GPA INT,
     Grade CHAR(1));
 
 INSERT INTO student_table VALUES
