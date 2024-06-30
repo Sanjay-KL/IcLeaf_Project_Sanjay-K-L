@@ -4,7 +4,7 @@ CREATE TABLE sales_sample (
     Product_Id INT,
     Region VARCHAR(50),
     Date DATE,
-    Sales_Amount NUMERIC
+    Sales_Amount INT
 );
 
 -- Inserting 10 sample records
