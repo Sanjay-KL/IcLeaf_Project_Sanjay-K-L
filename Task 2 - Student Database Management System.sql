@@ -1,4 +1,4 @@
-CREATE TABLE student_table (
+LCREATE TABLE student_table (
     Student_id INT PRIMARY KEY,
     Stu_name VARCHAR(30),
     Department VARCHAR(15),
@@ -8,7 +8,7 @@ CREATE TABLE student_table (
     Date_of_birth DATE,
     Gender VARCHAR(8),
     Major VARCHAR(20),
-    GPA INT,
+    GPA REAL,
     Grade CHAR(1));
 
 INSERT INTO student_table VALUES
