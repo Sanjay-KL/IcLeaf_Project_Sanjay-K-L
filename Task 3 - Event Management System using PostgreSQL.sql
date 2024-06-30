@@ -5,7 +5,7 @@ CREATE TABLE Events (
     Event_Name VARCHAR(100),
     Event_Date DATE,
     Event_Location VARCHAR(100),
-    Event_Description TEXT
+    Event_Description VARCHAR(50)
 );
 
 CREATE TABLE Attendees (
@@ -21,7 +21,7 @@ CREATE TABLE Registrations (
     Event_Id INT,
     Attendee_Id INT,
     Registration_Date DATE,
-    Registration_Amount NUMERIC,
+    Registration_Amount INT,
     FOREIGN KEY (Event_Id) REFERENCES Events(Event_Id),
     FOREIGN KEY (Attendee_Id) REFERENCES Attendees(Attendee_Id)
 );
